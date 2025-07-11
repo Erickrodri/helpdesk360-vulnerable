@@ -2,7 +2,7 @@
 <?php
 $host = 'localhost';
 $user = 'root';
-$pass = '';
+$pass = 'admin';
 $db = 'tickets';
 $conn = new mysqli($host, $user, $pass, $db);
 if ($conn->connect_error) {
